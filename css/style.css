@@ -1,13 +1,12 @@
 /* Основні налаштувння */
 body{
-font-family: "Roboto", sans-serif,;
+font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-text-align: left;
 }
 /* Studio */
 .logo{
@@ -28,19 +27,32 @@ color:#4D5AE5;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 3%;
-    color:  #f4f4fd;
+    color:#f4f4fd;
 }
 /* ОСНОВНА НАВІГАЦІЯ  */
-.Body-Medium{
+.Body-Medium :hover :focus{
 font-family: 'Roboto';
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
+color: #2e2f42;
 }
+.Body-Medium{
+   color: #404bbf;
+}
+
+.link-1 :hover :focus{
+    color: #434455;
+}
+
+.link-1{
+   color: #404bbf; 
+}
+
 /* ADDRESS */
-address{
+.address{
     font-style: normal;
 }
 /* ГОЛОВНИЙ ЗАГОЛОВОК */
