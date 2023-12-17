@@ -1,6 +1,6 @@
+/* Основні налаштувння */
 body{
-font-family: 'Roboto', sans-serif;
-font-family: 'Tangerine', cursive;
+font-family: "Roboto", sans-serif,;
 color: #434455;
 background-color: #FFFFFF;
 font-weight: 400;
@@ -9,7 +9,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 }
-
+/* Studio */
 .logo{
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
@@ -18,16 +18,19 @@ line-height: 21px;
 letter-spacing: 0.03em;
 text-align: left;
 background: #2E2F42;
+text-transform: uppercase;
+line-height: 1.17;
+color:#4D5AE5;
 }
 
-.web{
+.span{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 3%;
-    color: #4D5AE5;
+    color:  #f4f4fd;
 }
-
+/* ОСНОВНА НАВІГАЦІЯ  */
 .Body-Medium{
 font-family: 'Roboto';
 font-size: 16px;
@@ -36,7 +39,11 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 }
-
+/* ADDRESS */
+address{
+    font-style: normal;
+}
+/* ГОЛОВНИЙ ЗАГОЛОВОК */
 .header-1{
 font-size: 56px;
 font-weight: 700;
@@ -45,7 +52,7 @@ letter-spacing: 0.02em;
 text-align: center;
 background-color: #2E2F42;
 }
-
+/* КНОПКА */
 button{
 color: #4D5AE5;
 box-shadow: 0px 4px 4px 0px #00000026;
@@ -76,7 +83,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.img-portfolio > img{
+.our-portfolio > img{
  width: 360px;
  height: 300px;
 }
@@ -84,5 +91,8 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border: 1px solid rgba(231, 233, 252, 1)
 }
 .footer{
+    line-height: 1.17;
+    text-transform: uppercase;
     background: rgba(46, 47, 66, 1);
+    color: #F4F4FD;
 }
