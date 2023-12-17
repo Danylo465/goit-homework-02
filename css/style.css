@@ -1,0 +1,88 @@
+body{
+font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive;
+color: #434455;
+background-color: #FFFFFF;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.logo{
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+background: #2E2F42;
+}
+
+.web{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    color: #4D5AE5;
+}
+
+.Body-Medium{
+font-family: 'Roboto';
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.header-1{
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+background-color: #2E2F42;
+}
+
+button{
+color: #4D5AE5;
+box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.header-3 > h3{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    background: rgba(244, 244, 253, 1);
+}
+
+.header-2 > h2{
+font-family: 'Roboto';
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.header-2 > img{
+background: rgba(255, 255, 255, 1);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.img-portfolio > img{
+ width: 360px;
+ height: 300px;
+}
+.img-portfolio > li{
+    border: 1px solid rgba(231, 233, 252, 1)
+}
+.footer{
+    background: rgba(46, 47, 66, 1);
+}
