@@ -56,7 +56,7 @@ color: #2e2f42;
     font-style: normal;
 }
 /* ГОЛОВНИЙ ЗАГОЛОВОК */
-.header1 >h1{
+.headerone >h1{
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
@@ -80,7 +80,7 @@ button{
     background-color: #404bbf;
 }
 
-.header3 > h3{
+.headerthree > h3{
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 500;
@@ -90,7 +90,7 @@ button{
     background: rgba(244, 244, 253, 1);
 }
 
-.header2 > h2{
+.headertwo > h2{
 font-family: 'Roboto';
 font-size: 20px;
 font-weight: 500;
@@ -99,7 +99,7 @@ letter-spacing: 0.02em;
 text-align: center;
 }
 
-.header-2 > img{
+.headertwo > img{
 background: rgba(255, 255, 255, 1);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
