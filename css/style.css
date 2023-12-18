@@ -56,21 +56,31 @@ color: #2e2f42;
     font-style: normal;
 }
 /* ГОЛОВНИЙ ЗАГОЛОВОК */
-.header-1{
+.header1 >h1{
 font-size: 56px;
 font-weight: 700;
+line-height: 1.07;
 line-height: 60px;
 letter-spacing: 0.02em;
 text-align: center;
 background-color: #2E2F42;
 }
 /* КНОПКА */
-button{
+button :hover :focus{
 color: #4D5AE5;
+font-size: 16px;
 box-shadow: 0px 4px 4px 0px #00000026;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+}
+button{
+    background-color: #404bbf;
 }
 
-.header-3 > h3{
+.header3 > h3{
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 500;
@@ -80,11 +90,11 @@ box-shadow: 0px 4px 4px 0px #00000026;
     background: rgba(244, 244, 253, 1);
 }
 
-.header-2 > h2{
+.header2 > h2{
 font-family: 'Roboto';
-font-size: 36px;
-font-weight: 700;
-line-height: 40px;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 }
@@ -98,6 +108,13 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 .our-portfolio > img{
  width: 360px;
  height: 300px;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+background-color: #F4F4FD;
+color: #2e2f42;
 }
 .img-portfolio > li{
     border: 1px solid rgba(231, 233, 252, 1)
@@ -107,4 +124,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     text-transform: uppercase;
     background: rgba(46, 47, 66, 1);
     color: #F4F4FD;
+}
+.par{
+    line-height: 1.5;
 }
