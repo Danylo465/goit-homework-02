@@ -38,7 +38,7 @@ letter-spacing: 0.02em;
 text-align: left;
 color: #2e2f42;
 }
-.Body-Medium{
+.body-medium{
     color: #404bbf;
  }
 .header-contacts :hover :focus{
@@ -57,7 +57,7 @@ color: #2e2f42;
     font-weight: 500;
 }
 
-.nav-lists{
+.nav-links{
     color: #404bbf;
 }
 
@@ -81,7 +81,7 @@ line-height: 1.07;
 color: #ffffff;
 }
 /* КНОПКА */
-.button-order :hover :focus{
+.main-button :hover :focus{
     background-color: #4D5AE5;
     font-size: 16px;
     font-weight: 500;
@@ -90,7 +90,7 @@ color: #ffffff;
     color: #ffffff;
     cursor: pointer;
 }
-.button-order{
+.main-button{
     background-color: #404bbf;
 }
 .list-text{
