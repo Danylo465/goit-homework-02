@@ -27,7 +27,7 @@ color:#4D5AE5;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 3%;
-    color:#f4f4fd;
+    color: #2e2f42;
 }
 /* ОСНОВНА НАВІГАЦІЯ  */
 .Body-Medium :hover :focus{
@@ -38,6 +38,9 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 color: #2e2f42;
+}
+.header-contacts{
+color: #434455;
 }
 .Body-Medium{
    color: #404bbf;
@@ -55,8 +58,16 @@ color: #2e2f42;
 .address{
     font-style: normal;
 }
+.nav-lists :hover :focus{
+    color: #2e2f42;
+    font-weight: 500;
+
+}
+.nav-lists{
+    color: #404bbf;
+}
 /* ГОЛОВНИЙ ЗАГОЛОВОК */
-.headerone >h1{
+.headerone{
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
@@ -65,8 +76,17 @@ letter-spacing: 0.02em;
 text-align: center;
 background-color: #2E2F42;
 }
+.main-header{
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+line-height: 1.07;
+color: #ffffff;
+}
 /* КНОПКА */
-button :hover :focus{
+.button-order :hover :focus{
 color: #4D5AE5;
 font-size: 16px;
 box-shadow: 0px 4px 4px 0px #00000026;
@@ -79,19 +99,54 @@ cursor: pointer;
 button{
     background-color: #404bbf;
 }
+.list-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
-.headerthree > h3{
+.headerthree {
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    background: rgba(244, 244, 253, 1);
+    background-color: #F4F4FD;
+}
+.headerthree > h2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+ 
+.team-list{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
 }
 
-.headertwo > h2{
-font-family: 'Roboto';
+.team-par{
+    font-size: 16px;
+}
+.our-portfolio{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.portfolio-header{
+color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -102,13 +157,13 @@ text-align: center;
 .images-portfolio{
  width: 360px;
  height: 300px;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-background-color: #F4F4FD;
-color: #2e2f42;
+ font-size: 36px;
+ line-height: 1.11;
+ text-align: center;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ background-color: #F4F4FD;
+ color: #2e2f42;
 }
 
 .footer{
