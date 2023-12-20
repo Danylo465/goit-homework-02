@@ -28,12 +28,12 @@ color:#4D5AE5;
     letter-spacing: 3%;
     color: #2e2f42;
 }
-.nav-links :hover :focus{
+.navigation-link :hover :focus{
     color: #2e2f42;
     font-weight: 500;
 }
 
-.nav-links{
+.navigation-link{
     color: #404bbf;
 }
 
