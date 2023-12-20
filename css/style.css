@@ -29,7 +29,7 @@ color:#4D5AE5;
     color: #2e2f42;
 }
 /* ОСНОВНА НАВІГАЦІЯ  */
-.Body-Medium :hover :focus{
+.body-medium :hover :focus{
 font-family: 'Roboto';
 font-size: 16px;
 font-weight: 500;
@@ -42,7 +42,7 @@ color: #2e2f42;
     color: #404bbf;
  }
 .header-contacts :hover :focus{
-color: #434455;
+    color: #434455;
 }
 .header-contacts{
     color: #404bbf;
@@ -52,7 +52,7 @@ color: #434455;
 .address{
     font-style: normal;
 }
-..nav-lists :hover :focus{
+..nav-links :hover :focus{
     color: #2e2f42;
     font-weight: 500;
 }
@@ -82,13 +82,13 @@ color: #ffffff;
 }
 /* КНОПКА */
 .button-order :hover :focus{
-background-color: #4D5AE5;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
-cursor: pointer;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
 }
 .button-order{
     background-color: #404bbf;
@@ -109,6 +109,7 @@ cursor: pointer;
 .par-portfolio{
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-size: 16px;
     color: #434455;
 }
 
@@ -167,18 +168,6 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
-}
-
-.images-portfolio{
- width: 360px;
- height: 300px;
- font-size: 36px;
- line-height: 1.11;
- text-align: center;
- letter-spacing: 0.02em;
- text-transform: capitalize;
- background-color: #F4F4FD;
- color: #2e2f42;
 }
 
 .footer{
