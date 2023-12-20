@@ -52,7 +52,7 @@ color: #2e2f42;
 .address{
     font-style: normal;
 }
-..nav-links :hover :focus{
+.nav-links :hover :focus{
     color: #2e2f42;
     font-weight: 500;
 }
@@ -178,4 +178,8 @@ text-align: center;
 }
 .par{
     line-height: 1.5;
+}
+
+.last-span{
+    color: #f4f4fd;
 }
