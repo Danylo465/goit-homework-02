@@ -38,7 +38,7 @@ color:#4D5AE5;
 }
 
 .nav-link :hover 
-.nav-link:focus{
+.nav-link :focus {
     color: #404bbf;
 }
 
@@ -50,7 +50,8 @@ color:#4D5AE5;
 .contacts{
     color: #434455;
 }
-.contacts  :hover :focus{
+.contacts :hover 
+.contacts :focus {
     color: #404bbf;
 }
 
@@ -92,7 +93,7 @@ color: #ffffff;
     color: #ffffff;
 }
 .main-button :hover
-.main-button :focus{
+.main-button :focus {
     background-color: #404bbf;
     cursor: pointer;
 }
