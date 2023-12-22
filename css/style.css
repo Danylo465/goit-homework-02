@@ -29,8 +29,7 @@ color:#4D5AE5;
     color: #2e2f42;
 }
 
-.nav-link :hover 
-.nav-link:focus{
+.nav-link{
     color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
@@ -38,7 +37,8 @@ color:#4D5AE5;
     font-weight: 500;
 }
 
-.nav-link{
+.nav-link :hover 
+.nav-link:focus{
     color: #404bbf;
 }
 
@@ -81,8 +81,7 @@ color: #ffffff;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.main-button :hover
-.main-button :focus{
+.main-button{
 background-color: #4D5AE5;
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -92,7 +91,8 @@ letter-spacing: 0.04em;
 text-align: left;
 color: #ffffff;
 }
-.main-button{
+.main-button :hover
+.main-button :focus{
     background-color: #404bbf;
     cursor: pointer;
 }
