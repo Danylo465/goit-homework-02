@@ -29,7 +29,7 @@ color:#4D5AE5;
     color: #2e2f42;
 }
 
-/* ОСНОВНА НАВІГАЦІЯ  */
+
 .body-medium :hover :focus{
 font-family: 'Roboto';
 font-size: 16px;
@@ -50,7 +50,7 @@ color: #2e2f42;
     color: #2e2f42;
 }
 
-.nav-link {
+.nav-link{
     color: #404bbf;
 }
 
@@ -93,17 +93,17 @@ color: #ffffff;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.button-order :hover :focus{
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
+.main-button :hover :focus{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: left;
+color: #ffffff;
+background-color: #4D5AE5;
 }
-.button-order{
+.main-button{
     background-color: #404bbf;
     cursor: pointer;
 }
@@ -127,7 +127,7 @@ color: #ffffff;
     letter-spacing: 0.02em;
 }
 
-.headerthree {
+.headerthree{
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 500;
