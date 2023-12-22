@@ -37,8 +37,7 @@ color:#4D5AE5;
     font-weight: 500;
 }
 
-.nav-link :hover 
-.nav-link:focus{
+.nav-link :hover :focus{
     color: #404bbf;
 }
 
@@ -91,8 +90,7 @@ letter-spacing: 0.04em;
 text-align: left;
 color: #ffffff;
 }
-.main-button :hover
-.main-button :focus{
+.main-button :hover :focus{
     background-color: #404bbf;
     cursor: pointer;
 }
