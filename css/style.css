@@ -29,7 +29,7 @@ color:#4D5AE5;
     color: #2e2f42;
 }
 
-.nav-link{
+.nav-link {
     color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
@@ -37,8 +37,8 @@ color:#4D5AE5;
     font-weight: 500;
 }
 
-.nav-link :hover 
-.nav-link :focus {
+.nav-link:hover 
+.nav-link:focus {
     color: #404bbf;
 }
 
@@ -47,11 +47,11 @@ color:#4D5AE5;
     font-style: normal;
 }
 
-.contacts{
+.contacts {
     color: #434455;
 }
-.contacts :hover 
-.contacts :focus {
+.contacts:hover 
+.contacts:focus {
     color: #404bbf;
 }
 
@@ -92,8 +92,8 @@ color: #ffffff;
     text-align: left;
     color: #ffffff;
 }
-.main-button :hover
-.main-button :focus {
+.main-button:hover
+.main-button:focus {
     background-color: #404bbf;
     cursor: pointer;
 }
