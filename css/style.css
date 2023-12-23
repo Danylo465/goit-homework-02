@@ -1,11 +1,12 @@
 /* Основні налаштувння */
 body{
 font-family: "Roboto", sans-serif;
+font-family: 'Tangerine', cursive;
 color: #434455;
 background-color: #FFFFFF;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 /* Studio */
@@ -13,23 +14,27 @@ letter-spacing: 0.02em;
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
 background: #2E2F42;
 text-transform: uppercase;
 line-height: 1.17;
 color:#4D5AE5;
+text-decoration: none;
 }
 
 .span-web{
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: left;
     color: #2e2f42;
 }
 
 .nav-link {
+    list-style-type: none;
     color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
@@ -42,13 +47,14 @@ color:#4D5AE5;
     color: #404bbf;
 }
 
- /* ADDRESS */
+
 .address{
     font-style: normal;
 }
 
 .contacts {
     color: #434455;
+    text-decoration: none;
 }
 .contacts:hover, 
 .contacts:focus {
@@ -81,6 +87,7 @@ color: #ffffff;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    list-style-type: none;
 }
 .main-button{
     background-color: #4D5AE5;
@@ -91,11 +98,11 @@ color: #ffffff;
     letter-spacing: 0.04em;
     text-align: left;
     color: #ffffff;
+    cursor: pointer;
 }
 .main-button:hover,
 .main-button:focus {
     background-color: #404bbf;
-    cursor: pointer;
 }
 .par-inv{
     font-size: 16px;
@@ -124,7 +131,7 @@ color: #ffffff;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    background-color: #F4F4FD;
+    list-style-type: none;
 }
 .headerthree > h2{
     font-size: 36px;
@@ -141,6 +148,7 @@ color: #ffffff;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    list-style-type: none;
 }
 
 .team-par{
@@ -159,12 +167,12 @@ color: #ffffff;
 }
 
 .portfolio-header{
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(46, 47, 66, 1);
 }
 
 .footer{
