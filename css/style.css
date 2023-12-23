@@ -132,6 +132,7 @@ color: #ffffff;
     letter-spacing: 0.02em;
     text-align: left;
     list-style-type: none;
+    background-color: #F4F4FD
 }
 .headerthree > h2{
     font-size: 36px;
@@ -167,9 +168,9 @@ color: #ffffff;
 }
 
 .portfolio-header{
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: rgba(46, 47, 66, 1);
