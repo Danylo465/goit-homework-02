@@ -8,6 +8,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+a {
+    text-decoration: none;
+  }
+ul {
+    list-style: none;
+}
 /* Studio */
 .logo{
 font-family: 'Raleway', sans-serif;
@@ -18,9 +24,7 @@ letter-spacing: 0.03em;
 text-align: left;
 background: #2E2F42;
 text-transform: uppercase;
-line-height: 1.17;
 color:#4D5AE5;
-text-decoration: none;
 }
 
 .span-web{
@@ -33,11 +37,7 @@ text-align: left;
 }
 
 .nav-link {
-    list-style-type: none;
     color: #2e2f42;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     font-weight: 500;
 }
 
@@ -53,7 +53,6 @@ text-align: left;
 
 .contacts {
     color: #434455;
-    text-decoration: none;
 }
 .contacts:hover, 
 .contacts:focus {
@@ -65,8 +64,6 @@ text-align: left;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
-line-height: 60px;
-letter-spacing: 0.02em;
 text-align: center;
 background-color: #2E2F42;
 }
@@ -74,7 +71,6 @@ background-color: #2E2F42;
 font-size: 56px;
 font-weight: 700;
 line-height: 60px;
-letter-spacing: 0.02em;
 text-align: center;
 line-height: 1.07;
 color: #ffffff;
@@ -84,7 +80,7 @@ color: #ffffff;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+
     color: #2e2f42;
     list-style-type: none;
 }
@@ -92,8 +88,6 @@ color: #ffffff;
     background-color: #4D5AE5;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
     color: #ffffff;
@@ -104,15 +98,10 @@ color: #ffffff;
     background-color: #404bbf;
 }
 .par-inv{
-    font-size: 16px;
-    line-height: 1.5;
     color: #434455;
 }
 
 .par-portfolio{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-size: 16px;
     color: #434455;
 }
 
@@ -120,7 +109,6 @@ color: #ffffff;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
 }
 
 .headerthree{
@@ -128,7 +116,7 @@ color: #ffffff;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.02em;
+
     text-align: left;
     list-style-type: none;
     background-color: #F4F4FD
@@ -137,7 +125,7 @@ color: #ffffff;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
+
     text-transform: capitalize;
     color: #2E2F42;
 }
@@ -152,16 +140,14 @@ color: #ffffff;
 }
 
 .team-par{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
     color: #434455;
 }
 .our-portfolio{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
+
     text-transform: capitalize;
     color: #2E2F42;
 }
@@ -170,7 +156,7 @@ color: #ffffff;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+
     text-align: center;
     color: rgba(46, 47, 66, 1);
 }
