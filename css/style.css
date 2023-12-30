@@ -8,7 +8,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-
+ a{
+    text-decoration: none;
+ }
 ul {
     list-style-type: none;
 }
@@ -20,7 +22,6 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
-background: #2E2F42;
 text-transform: uppercase;
 color:#4D5AE5;
 }
@@ -121,10 +122,8 @@ letter-spacing: 0.02em;
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-
+    line-height: 1.2;
     text-align: left;
-    list-style-type: none;
     background-color: #F4F4FD
 }
 .headerthree > h2{
