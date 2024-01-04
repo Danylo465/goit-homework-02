@@ -124,7 +124,6 @@ letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.2;
     text-align: left;
-    background-color: #F4F4FD
 }
 .headerthree > h2{
     font-size: 36px;
@@ -161,13 +160,14 @@ letter-spacing: 0.02em;
 }
 
 .portfolio-header{
-    font-size: 20px;
-    font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: rgba(46, 47, 66, 1);
     background: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
 }
 
 .footer{
@@ -177,7 +177,6 @@ letter-spacing: 0.02em;
     color: #F4F4FD;
 }
 .par{
-    background: rgba(244, 244, 253, 1);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
