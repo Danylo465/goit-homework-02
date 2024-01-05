@@ -124,6 +124,7 @@ letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.2;
     text-align: left;
+    background-color: #F4F4FD;
 }
 .headerthree > h2{
     font-size: 36px;
@@ -168,11 +169,12 @@ letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.2;
 }
-.portfolio-items-header{
+.small-header-list{
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    text-align: left;
 }
 
 .footer{
