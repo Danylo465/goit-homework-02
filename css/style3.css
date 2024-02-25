@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 h1{
     text-align: center;
     font-size: 56px;
@@ -11,22 +12,7 @@ h1{
     margin-bottom: 30px;
 }
 img{
-    margin-left: 500px;
-}
-p{
-    margin-top: 50px;
-    width: 900px;
-    height: auto;
-    margin-left: 500px;
-    text-align: center;
-
-}
-ul{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    list-style: none;
-    margin-top: 50px;
+    margin-left: 600px;
 }
 button{
     background-color: #4e8fa1;
@@ -37,4 +23,17 @@ button{
 a{
     text-decoration: none;
     color: #fff;
+}
+.list-1{
+    margin-left: 600px;
+}
+p{
+    margin-left: 600px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin-top: 50px;
 }
